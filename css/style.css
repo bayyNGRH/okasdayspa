@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 body{
 	margin:0;
 	padding:0;
@@ -12,7 +11,7 @@ body{
 	box-sizing: border-box;
 	margin:0;
 	padding:0;
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Arsenal', 'Work Sans';
 }
 
 /*Header*/
@@ -23,7 +22,7 @@ header{
 	top:0px;
 	width: 100%;
 	z-index: 10;
-	background-color: #000000;
+	background-color: transparent;
 	padding:15px 15px;
 }
 header .container{
@@ -33,6 +32,12 @@ header .container{
 	align-items: center;
 }
 
+header img {
+	display: block;
+	width: 100px;
+	height: auto;
+}
+
 header .logo a{
 	font-size: 30px;
 	text-decoration: none;
@@ -40,11 +45,11 @@ header .logo a{
 	font-weight: 700;
 }
 header .logo a span{
-	color:#c11325;
+	color:#D8BFD8;
 }
 header .nav{
 	position: fixed;
-	background-color: #c11325;
+	background-color: #D8BFD8;
 	width: 280px;
 	top:0;
 	right:0;
@@ -144,7 +149,7 @@ header .ham-burger.active span:nth-child(2){
 /*Home section*/
 .home{
 	height: 100vh;
-	background-image: url('../images/home.jpg');
+	background-image: url('../images/Hero1.jpg');
 	background-size: cover;
 	padding:15px;
 	-webkit-display: flex;
@@ -192,7 +197,7 @@ header .ham-burger.active span:nth-child(2){
 }
 
 .home h1 span{
-	color:#c11325;;
+	color:pink;;
 }
 
 
@@ -202,6 +207,25 @@ header .ham-burger.active span:nth-child(2){
 	padding:80px 0px;
 	background-color:#ffffff;
 }
+
+.about h2{
+	font-size: 30px;
+	text-align: center;
+}
+
+.desc{
+    font-family: 'Work Sans';
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+@media only screen and (max-width: 768px) {
+    .desc {
+        display: none;
+    }
+}
+
 
 .about .content{ 
  -webkit-display: flex;
@@ -213,10 +237,10 @@ header .ham-burger.active span:nth-child(2){
 	padding:15px;
 }
 .about .content .box .inner{
-	background-color:#222222;
+	background-color:pink;
 }
 .about .content .box:nth-child(2) .inner{
-	background-color: #c11325;
+	background-color: #D8BFD8;
 }
 .about .content .box .inner .img img{
 	width: 100%;
@@ -247,7 +271,7 @@ header .ham-burger.active span:nth-child(2){
 /*Service Section*/
 .service{
 	padding:80px 0px;
-	background-color: #c11325;
+	background-color: pink;
 }
 
 .service .content{
@@ -279,7 +303,7 @@ header .ham-burger.active span:nth-child(2){
 
 .service .content .text .btn{
 	padding:8px 30px;
-	background-color: #222222;
+	background-color: #848484;
 	color:#ffffff;
 	text-decoration: none;
 	display: inline-block;
@@ -329,7 +353,7 @@ header .ham-burger.active span:nth-child(2){
 .service .content .accordian-container .body{
 	display: none;
 	padding:15px;
-	background-color: #222222;
+	background-color: #848484;
 	border-top:1px solid #333333;
 }
 
@@ -392,10 +416,10 @@ header .ham-burger.active span:nth-child(2){
 	display: flex;
 }
 .classes .content .class-items .item:nth-child(1){
- background-color: #222222;
+ background-color: pink;
 }
 .classes .content .class-items .item:nth-child(2){
- background-color: #c11325;
+ background-color: violet;
 }
 .classes .content .class-items .item .item-text{
 	padding: 15px;
