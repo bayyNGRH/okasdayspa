@@ -449,7 +449,7 @@ header .ham-burger.active span:nth-child(2){
 	line-height: 50px;
 }
 .classes .content .class-items .item:nth-child(1) .item-img .price{
- background-color: #c11325;
+ background-color: pink;
  left:0;
  top:0;
 }
@@ -530,7 +530,7 @@ header .ham-burger.active span:nth-child(2){
 
 .start-today .content .text .btn{
 	padding: 8px 30px;
-    background-color: #c11325;
+    background-color: pink;
     color: #ffffff;
     text-decoration: none;
     display: inline-block;
@@ -605,7 +605,7 @@ header .ham-burger.active span:nth-child(2){
 	background-color: #444444;
 }
 .schedule .content .timing .table tr:nth-child(1) td.day{
-	background-color: #c11325;
+	background-color: pink;
 }
 .schedule .content .timing .table tr td.day{
 	color:#ffffff;
@@ -640,10 +640,11 @@ header .ham-burger.active span:nth-child(2){
 
 .gallery h2{
 	font-size: 30px;
-    font-weight: 500;
+    font-weight: bold;
     color: #000000;
     padding: 0px 0px 20px;
     text-align: center;
+	margin-top: 1em;
 }
 
 
@@ -686,7 +687,7 @@ header .ham-burger.active span:nth-child(2){
 .price-package .content .box .inner .price-tag{
 	padding: 15px;
 	font-size: 20px;
-	background-color: #c11325;
+	background-color: pink;
 	color:#ffffff;
 	text-align: center;
 	font-weight: 700;
@@ -713,7 +714,7 @@ header .ham-burger.active span:nth-child(2){
 }
 .price-package .content .box .inner .text .btn{
     padding: 8px 30px;
-    background-color: #c11325;
+    background-color: pink;
     color: #ffffff;
     text-decoration: none;
     display: inline-block;
@@ -782,7 +783,7 @@ header .ham-burger.active span:nth-child(2){
 	height: 45px;
 	padding:0px 50px;
 	border:1px solid transparent;
-	background-color: #c11325;
+	background-color: pink;
 	color:#ffffff;
 	font-size: 15px;
 	transition: all .5s ease;
@@ -797,7 +798,7 @@ header .ham-burger.active span:nth-child(2){
 .contact .content .text h2{
 	font-size: 30px;
     font-weight: 500;
-    color: #c11325;
+    color: pink;
     padding: 0px 0px 20px;
 }
 .contact .content .text p{
@@ -831,7 +832,7 @@ header .ham-burger.active span:nth-child(2){
 	left:0px;
 	top:0px;
 	font-size: 20px;
-	color:#c11325;
+	color:pink;
 }
 .contact .content .text .social {
 	padding-top: 30px;
@@ -841,7 +842,7 @@ header .ham-burger.active span:nth-child(2){
 	width: 40px;
 	line-height: 40px;
 	text-align: center;
-	background-color: #c11325;
+	background-color: pink;
     text-decoration: none;	
     display: inline-block;
     margin-right: 10px;
